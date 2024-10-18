@@ -81,11 +81,15 @@ fun BasicCompose(
         Text(
             text = "Agil Imam Alhafizi",
             style = TextStyle(
-                fontSize = 25.sp,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Red,
             )
-
+        )
+        Text(
+            text = "20220140085",
+            fontWeight = FontWeight.Bold,
+            fontSize = 30.sp,
         )
     }
 
