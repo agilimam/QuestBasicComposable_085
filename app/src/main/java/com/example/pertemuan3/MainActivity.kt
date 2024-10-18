@@ -90,7 +90,10 @@ fun BasicCompose(
         Text(
             text = "20220140085",
             fontWeight = FontWeight.Bold,
-            fontSize = 30.sp,
+            fontSize = 40.sp,
+        )
+        Image(painter = painterResource(id = R.drawable.agil),
+            contentDescription = null,
         )
 
     }
