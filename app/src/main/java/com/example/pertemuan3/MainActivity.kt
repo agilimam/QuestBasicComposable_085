@@ -94,7 +94,7 @@ fun BasicCompose(
         )
         Image(painter = painterResource(id = R.drawable.agil),
             contentDescription = null,
-            modifier = Modifier.size(300.dp)
+            modifier = Modifier.size(300.dp).padding(top = 10.dp)
         )
 
     }
