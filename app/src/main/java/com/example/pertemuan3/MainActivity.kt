@@ -64,7 +64,7 @@ fun BasicCompose(
             fontSize = 25.sp
 
         )
-        Image(painter = painterResource(id = R.drawable.fifa),
+        Image(painter = painterResource(id = R.drawable.umy),
             contentDescription = null)
     }
 
