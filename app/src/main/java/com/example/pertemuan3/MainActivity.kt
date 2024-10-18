@@ -48,7 +48,7 @@ fun BasicCompose(
 ){
     Column (
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.Top,
         modifier = Modifier.fillMaxSize()
 
     ){
@@ -57,7 +57,7 @@ fun BasicCompose(
             style = TextStyle(
                     fontSize = 50.sp,
                     fontWeight = FontWeight.Bold,
-                    color = Color.Red,
+                    color = Color.Black,
                     )
 
         )
@@ -69,7 +69,8 @@ fun BasicCompose(
 
         Image(painter = painterResource(id = R.drawable.umy),
             contentDescription = null,
-            modifier = Modifier.size(width = 300.dp, height = 200.dp),
+            modifier = Modifier.size(300.dp).padding(top = 10.dp
+            )
 
         )
         Text(
