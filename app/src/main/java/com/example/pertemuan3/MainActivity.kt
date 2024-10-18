@@ -9,6 +9,8 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -21,6 +23,7 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.font.createFontFamilyResolver
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.pertemuan3.ui.theme.Pertemuan3Theme
 
@@ -61,11 +64,16 @@ fun BasicCompose(
         Text(
             text = "Ini adalah halaman Login",
             fontWeight = FontWeight.Bold,
-            fontSize = 25.sp
+            fontSize = 20.sp,
+        )
+
+        Image(painter = painterResource(id = R.drawable.umy),
+            contentDescription = null,
+            modifier = Modifier.size(width = 400.dp, height = 300 .dp),
 
         )
-        Image(painter = painterResource(id = R.drawable.umy),
-            contentDescription = null)
+      
+
     }
 
 }
