@@ -50,7 +50,7 @@ fun BasicCompose(
 
     ){
         Text(
-            text = "Indonesia",
+            text = "Login",
             style = TextStyle(
                     fontSize = 50.sp,
                     fontWeight = FontWeight.Bold,
@@ -59,7 +59,7 @@ fun BasicCompose(
 
         )
         Text(
-            text = "0",
+            text = "Ini adalah halaman Login",
             fontWeight = FontWeight.Bold,
             fontSize = 25.sp
 
