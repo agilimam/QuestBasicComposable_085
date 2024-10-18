@@ -69,7 +69,7 @@ fun BasicCompose(
 
         Image(painter = painterResource(id = R.drawable.umy),
             contentDescription = null,
-            modifier = Modifier.size(300.dp).padding(top = 10.dp
+            modifier = Modifier.size(300.dp).padding(top = 50.dp
             )
 
         )
@@ -80,8 +80,12 @@ fun BasicCompose(
         )
         Text(
             text = "Agil Imam Alhafizi",
-            fontWeight = FontWeight.Bold,
-            fontSize = 25.sp
+            style = TextStyle(
+                fontSize = 25.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red,
+            )
+
         )
     }
 
